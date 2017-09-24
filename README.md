@@ -33,7 +33,7 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 $ composer install
-$ php artisan make:auth
+
 
 ```
 
