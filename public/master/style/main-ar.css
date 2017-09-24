@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'harabara';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/harabara.TTF') format('truetype');
+}
+@font-face {
+  font-family: 'helveticaneuelt';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/helveticaneuelt.OTF') format('opentype');
+}
+@font-face {
+  font-family: 'helveticaneuelt';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/helveticaneuelt_bold.OTF') format('opentype');
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, input[type="button"], button {
+	font-family: 'helveticaneuelt';
+	letter-spacing: 0 !important
+}
+html{
+	overflow-x: hidden;
+
+}
+html,body{
+	direction: rtl;
+}
+a{
+	font-weight: bold;
+}
+  #en_lang{
+  font-family: 'harabara', sans-serif;
+  letter-spacing: 2px !important
+  }
+.swiper-container{
+	direction: ltr;
+}
+.package .full_banner{
+	height: 143px;
+}
+section.content .title,.priceBlock,.pagination li a, .input-group input, .text-group textarea, .input-group  select,.inputfile + label,.close{
+	line-height: 1.2;
+}
+.alert .close{
+	right: auto;
+	left: 0
+}
+.lang img,.tick,.halfWidthList li .rhex{
+	margin-right: 0;
+	margin-left: 5px;
+}
+.subscribe_form .input-control{
+	height: 44px;
+}
+.tabs_link li:nth-child(2){
+	left: 0;
+	right: -5px;
+}
+.col-4,.halfWidthList li, .halfWidthList li .rhex,.rhex_sec_content .rhex,.gallery_list li,.cards .card,.cards .card .card_img,.rates li .type,
+.exchange_rates .colomn_footer .dateTime,.questions li,.sponsers li,.col-half,
+.rhex_sec_content .caption-content,.joinus .form_section .form-control,.joinus .btn,.subscribe_form .email_bg
+,.subscribe_form .input-control,.subscribe_btn,.contentSection,.adSection,.address_img,.address_info .contactList,
+.input-group,.pagination li,#gallery-thumbnails a, .gallery-list li,.logo,.header ,.menu{
+	float: right;
+}
+.halfWidthList li .list-content,.cards a.more,.rates li .numbers,.exchange_rates .colomn_footer a,.float_right,
+.card .btn{
+	float: left;
+}
+.halfWidthList .title,.cards .card .card_content .title,.flag_title,
+.cards .card .card_content,.questions li,.rhex_sec_content .rhex,
+section.content .rhex_sec_content .title,.caption-content,.address_info .contactList li,.inputfile + label strong
+{
+	text-align: right !important;
+}
+.tabs_link li:nth-child(1) a{
+	border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.tabs_link li:nth-child(2) a {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+   	border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.gallery_list li{
+	padding-left: 0;
+	padding-right: 10px;
+}
+.cards .card,.cards .card .card_content,.input-group:nth-child(even),.btns button,.search_form .input-group:nth-child(odd){
+	margin-right: 10px;
+	margin-left: 0
+}
+.col-4,.questions li,.contactList li img,.input-group:nth-child(odd),.listing_request_from .text-group,
+.search_form .input-group:nth-child(even),#gallery-thumbnails a, .gallery-list li{
+	margin-right: 0;
+	margin-left: 10px;
+}
+.questions li:nth-child(even),.packages .col-4:nth-child(4){
+	margin-left: 0
+}
+.exchanges div.col-4:nth-child(4){
+	padding-right: 40px;
+	margin-left: 0;
+	padding-left: 0;
+}
+.packages .col-4{
+	margin-right: 0;
+	margin-left: 25px;
+}
+.social{
+	text-align: left;
+}
+.rhex_sec_content .rhex,.joinus .form_section .form-control,.logo{
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.subscribe_form .email_bg{
+	margin-left: 0;
+	margin-right: 20px;
+	background-position: right 0 bottom 6px;
+	border-right: none;
+	border-left: 1px solid #bfc9cd;
+	padding-right: 0;
+	padding-left: 15px;
+}
+.subscribe_btn,.subscribe_form .input-control{
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.breadcrumbs li,.flag_title img{
+	margin-left: 5px;
+	margin-right: 0;
+}
+.breadcrumbs li a:after{
+	margin-left: 0;
+	margin-right: 5px;
+}
+.contentSection{
+	padding-right: 0;
+	padding-left: 20px;
+}
+.address_info .contactList{
+	margin-left: 0;
+	margin-right: 30px;
+}
+.mobile_pagination .rhex{
+	text-align: right;
+}
+.mobile_pagination .rhex.right_arrow {
+    background-image: url(../images/left-arrow-white.png);
+}
+.mobile_pagination .rhex.left_arrow {
+    background-image: url(../images/right-arrow-white.png);
+}
+@media screen and (max-width: 850px){
+.newsSection .cards .card:nth-child(1) .card_img {
+
+    float: right !important;
+}
+.gallery_list li:nth-child(odd) {
+    padding-left: 5px !important;
+    padding-right: 0 !important
+}
+.gallery_list li:nth-child(even) {
+    padding-right: 5px !important;
+    padding-left: 0 !important
+}
+}
+
+@media screen and (max-width: 1361px) {
+.header .menu{
+	text-align: right !important;
+}
+
+}
+@media screen and (max-width: 399px){
+.newsSection .cards .card:nth-child(1) .card_img {
+
+    float: none !important;
+}
+
+}
+@media screen and (max-width: 739px){
+.logo {
+    float: right !important;
+    margin-right: 20px;
+    margin-left: 0 !important;
+}
+.mob_menu {
+    display: block;
+    margin-right: 0 !important;
+    margin-left: 20px !important;
+    float: left !important;
+}
+}
